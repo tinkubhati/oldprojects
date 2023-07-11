@@ -1,0 +1,12 @@
+package com.prodapt.registrationlogin.services;
+
+import com.prodapt.registrationlogin.entities.Registration;
+
+public interface RegistrationService {
+	
+	//retrieve 
+	public User addUser();
+	
+	
+
+}

@@ -1,0 +1,58 @@
+{
+    "tasks": [{
+        "id": 1,
+        "name": "Clothes",
+        "price": 900,
+        "dis": "Upto 50% Off",
+        "reminder": true
+       
+    },
+    {
+        "id": 2,
+        "name": "Shoes",
+        "price":800,
+        "dis": "Upto 50% Off",
+        "reminder": true
+       
+    },
+    {
+        "id": 3,
+       "name": "Mobile",
+        "price":70000,
+        "dis": "Upto 50% Off",
+        "reminder": true
+        
+    },
+    {
+        "id": 4,
+       "name": "Sunglasses",
+        "price": 600,
+        "dis": "Upto 50% Off",
+        "reminder": true
+       
+    },
+    {
+        "id": 5,
+        "name": "Belt",
+        "price": 500,
+        "dis": "Upto 50% Off",
+        "reminder": true
+       
+    },
+    {
+        "id": 6,
+       "name": "Perfumes",
+        "price": 1600,
+        "dis": "Upto 50% Off",
+        "reminder": true
+       
+    },
+    {
+        "id": 7,
+       "name": "Hair Dryer",
+        "price": 300,
+        "dis": "Upto 50% Off",
+        "reminder": true
+       
+    }]
+}

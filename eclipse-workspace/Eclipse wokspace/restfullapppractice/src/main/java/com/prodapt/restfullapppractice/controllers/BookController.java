@@ -1,0 +1,50 @@
+package com.prodapt.restfullapppractice.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.prodapt.restfullapppractice.entities.Book;
+import com.prodapt.restfullapppractice.services.BookService;
+
+@RestController
+@RequestMapping("api/book")
+public class BookController {
+	
+	@Autowired
+	private BookService bookService;
+	
+//	@Autowired
+//	private Book book;
+	
+	@GetMapping("/getall")
+	public List<Book> getAllBooks(){
+		 return bookService.getAllBooks();
+	}
+	
+	@GetMapping("/getById/{id}")
+	public Book getBookById(@PathVariable ("id") Integer bookId ) {
+		
+		return bookService.getBookById(bookId);
+		
+	}
+	
+	@GetMapping("/getByName/{name}")
+	public Book getBookByName(@PathVariable ("name") String bookName) {
+		
+		return bookService.getBookByName(bookName);
+	}
+	
+	@PostMapping("/save")
+	public Book addBook(Book book) {
+		
+		return bookService.addBook(book);
+		
+	}
+
+}

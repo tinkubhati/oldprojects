@@ -1,0 +1,11 @@
+package com.webapp.todo;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class TodoService {
+	
+	 private static List<ToDo> todos ;
+}

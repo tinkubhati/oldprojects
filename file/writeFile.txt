@@ -1,0 +1,1 @@
+Java provides IO related libraries in java.io packagesIt's not interesting to learn IO 

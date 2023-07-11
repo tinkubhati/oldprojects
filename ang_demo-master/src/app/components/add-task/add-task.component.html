@@ -1,0 +1,26 @@
+<form class="form-control add-form" (ngSubmit)="onSubmit()">
+    <!-- <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text" name="name" [(ngModel)]="name" id="name" placeholder="Enter task name"/> 
+    </div> -->
+    <div class="form-control">
+        <label for="task">Name</label>
+        <input type="text" [(ngModel)]="text" name="task" id="text" placeholder="Add task"/> 
+    </div>
+    <div class="form-control">
+        <label for="dis">Discount</label>
+        <input type="text" [(ngModel)]="dis" name="dis" id="dis" placeholder="Add discount"/> 
+    </div>
+    <div class="form-control">
+        <label for="price">Price</label>
+        <input type="text" [(ngModel)]="price" name="price" id="price" placeholder="Add Price"/> 
+    </div>
+    
+    <div class="form-control">
+        <label for="reminder">Check</label>
+        <input type="checkbox" [(ngModel)]= "reminder" name="reminder" id="reminder" placeholder="check"/>
+    </div> 
+    {{text}}
+    
+    <input type="submit" value="Save Task" class="btn-block">
+</form>

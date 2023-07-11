@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [20/Aug/2022:22:12:30 +0530] "GET /studentformapp-0.0.1-SNAPSHOT/liststudent HTTP/1.1" 500 4805
+0:0:0:0:0:0:0:1 - - [20/Aug/2022:22:16:03 +0530] "GET /studentformapp-0.0.1-SNAPSHOT/liststudent HTTP/1.1" 500 1554
+0:0:0:0:0:0:0:1 - - [20/Aug/2022:22:16:23 +0530] "GET /studentformapp-0.0.1-SNAPSHOT/studentform HTTP/1.1" 500 1554
+0:0:0:0:0:0:0:1 - - [20/Aug/2022:22:16:26 +0530] "GET /studentformapp-0.0.1-SNAPSHOT/studentform HTTP/1.1" 500 1554
+0:0:0:0:0:0:0:1 - - [20/Aug/2022:22:16:26 +0530] "GET /studentformapp-0.0.1-SNAPSHOT/studentform HTTP/1.1" 500 1554
+0:0:0:0:0:0:0:1 - - [20/Aug/2022:22:16:26 +0530] "GET /studentformapp-0.0.1-SNAPSHOT/studentform HTTP/1.1" 500 1554

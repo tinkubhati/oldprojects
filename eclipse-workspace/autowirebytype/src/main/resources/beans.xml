@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean name="address" class="autowirebytype.model.Address">
+<property name="city" value="Greater Noida"/>
+<property name="state" value="Uttar Pradesh"/>
+</bean>
+
+<bean name="add" class="autowirebytype.model.Address">
+<property name="city" value="Greater Noida"/>
+<property name="state" value="Uttar Pradesh"/>
+</bean>
+
+<bean name = "employee" class="autowirebytype.model.Employee" autowire="byName">
+	<property name = "empName" value = "Tinku"></property>
+</bean>
+
+<!--
+<bean name="employee" class="autowirebytype.model.Employee" autowire="byType">
+<property name="empName" value="Tinku Bhati"/>
+</bean>
+  -->
+
+
+
+</beans>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\eclipse-workspace\springmvcannotation\src\main\webapp\welcomewithvariable.jsp"/>
+			<item value="D:\eclipse-workspace\springmvcxmlconfiguration\src\main\webapp\welcome.jsp"/>
+			<item value="D:\eclipse-workspace\springmvcxmlconfiguration\src\main\webapp\WEB-INF\dispatcher-servlet.xml"/>
+			<item value="D:\eclipse-workspace\springannotationcompletesolution\src\main\java\springannotationcompletesolution\config\AppConfig.java"/>
+			<item value="D:\eclipse-workspace\autowirebytype\src\main\java\autowirebytype\model\Driver.java"/>
+			<item value="D:\eclipse-workspace\injectmap\src\main\java\injectmap\Director.java"/>
+			<item value="D:\eclipse-workspace\springscopes\src\main\java\springscopes\ui\Driver.java"/>
+			<item value="D:\eclipse-workspace\springcompleteannotate\src\main\java\springcompleteannotate\ui\Driver.java"/>
+			<item value="D:\eclipse-workspace\springannotationcompletesolution\src\main\java\springannotationcompletesolution\ui\Driver.java"/>
+			<item value="D:\eclipse-workspace\sprinfexamples\src\main\resources\springconfig.xml"/>
+			<item value="D:\eclipse-workspace\aebappdemo"/>
+			<item value="D:\eclipse-workspace\ecom"/>
+			<item value="D:\eclipse-workspace\ecom\src\main\java"/>
+			<item value="D:\eclipse-workspace\jdbc"/>
+			<item value="D:\eclipse-workspace\jdbc\src\main\java\designpattern\adapter\ObjectAdapterMainApp.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.prodapt"/>
+			<item value="springexample"/>
+			<item value="studentformapp"/>
+			<item value="mavenapp"/>
+			<item value="inheritanceinhibernate"/>
+			<item value="tablerelation"/>
+			<item value="ecomapp"/>
+			<item value="jpaappwithannotations"/>
+			<item value="jdbcapp"/>
+			<item value="mavendemo"/>
+		</list>
+		<list key="name">
+			<item value="springhelloworldjavaconfig"/>
+			<item value="springmvcannotation"/>
+			<item value="aaaaaaa"/>
+			<item value="springmvcxmlconfiguration"/>
+			<item value="Autowire By Constructor"/>
+			<item value="Auto Wire by Type"/>
+			<item value="Inject Map"/>
+			<item value="Loading Bundle Resource Example"/>
+			<item value="Spring Scopes"/>
+			<item value="Bean Life Cycle"/>
+			<item value="Spring with complete annotations"/>
+			<item value="Spring Annotation Complete Solution"/>
+			<item value="Spring examples with annotations"/>
+			<item value="SprinfExamples"/>
+			<item value="studentformapp"/>
+		</list>
+		<list key="artifactId">
+			<item value="springhelloworldjavaconfig"/>
+			<item value="springmvcannotation"/>
+			<item value="aaaaaaa"/>
+			<item value="springmvcxmlconfiguration"/>
+			<item value="autowirebyconstructor"/>
+			<item value="autowirebytype"/>
+			<item value="injectmap"/>
+			<item value="loadingresourcebundleexample"/>
+			<item value="springscopes"/>
+			<item value="beanlifecycleexample"/>
+			<item value="springcompleteannotate"/>
+			<item value="springannotationcompletesolution"/>
+			<item value="springexampleswithannotations"/>
+			<item value="sprinfexamples"/>
+			<item value="studentformapp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="studentform"/>
+		</list>
+		<list key="name">
+			<item value="StudentFormApp"/>
+		</list>
+		<list key="artifactId">
+			<item value="studentform"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

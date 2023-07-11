@@ -1,0 +1,117 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Clothes",
+      "price": 900,
+      "dis": "Upto 50% Off",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Shoes",
+      "price": 800,
+      "dis": "Upto 50% Off",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Mobile",
+      "price": 70000,
+      "dis": "Upto 50% Off",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "Sunglasses",
+      "price": 600,
+      "dis": "Upto 50% Off",
+      "reminder": true
+    },
+    {
+      "id": 5,
+      "text": "Belt",
+      "price": 500,
+      "dis": "Upto 50% Off",
+      "reminder": true
+    },
+    {
+      "id": 6,
+      "text": "Perfumes",
+      "price": 1600,
+      "dis": "Upto 50% Off",
+      "reminder": true
+    },
+    {
+      "id": 7,
+      "text": "Hair Dryer",
+      "price": 300,
+      "dis": "Upto 50% Off",
+      "reminder": true
+    },
+    {
+      "name": "",
+      "text": "Roop Nagar",
+      "dis": "",
+      "price": 0,
+      "reminder": true,
+      "id": 9
+    },
+    {
+      "name": "",
+      "text": "Roop Nagar",
+      "dis": "70",
+      "price": "1000",
+      "reminder": true,
+      "id": 10
+    },
+    {
+      "name": "",
+      "text": "Roop Nagar",
+      "dis": "70",
+      "price": "1000",
+      "reminder": false,
+      "id": 11
+    },
+    {
+      "name": "ssdsad",
+      "text": "ddssdf",
+      "dis": "scsa",
+      "price": "55555",
+      "reminder": true,
+      "id": 12
+    },
+    {
+      "name": "Roop Nagar",
+      "text": "ddssdf",
+      "dis": "50",
+      "price": "10000",
+      "reminder": true,
+      "id": 13
+    },
+    {
+      "name": "Tinku Bhati",
+      "text": "Bhati",
+      "dis": "2100",
+      "price": "99199",
+      "reminder": true,
+      "id": 14
+    },
+    {
+      "name": "",
+      "text": "jfhkdcsnm",
+      "dis": "100",
+      "price": "10000",
+      "reminder": false,
+      "id": 15
+    },
+    {
+      "name": "",
+      "text": "Belt",
+      "dis": "Upto 63% 500",
+      "price": "7999",
+      "reminder": false,
+      "id": 16
+    }
+  ]
+}

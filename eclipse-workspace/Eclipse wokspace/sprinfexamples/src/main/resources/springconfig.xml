@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+	<bean id="customer" class="sprinfexamples.readinfconfig.Customer">
+		<property name="customerName" value="Tinku Bhati" />
+		<property name="customerId" value="14" />
+		<!-- Below using property i am injecting dependency -->
+		<property name="address" ref="addBean1" />
+	</bean>
+	<bean id="addBean1" class="sprinfexamples.readinfconfig.Address">
+
+		<property name="city" value="Greater Noida" />
+		<property name="state" value="Uttar Pradesh" />
+		<property name="country" value="India" />
+		<property name="addressId" value="1" />
+
+	</bean>
+	<bean id="addBean2" class="sprinfexamples.readinfconfig.Address">
+
+		<property name="city" value="Noida" />
+		<property name="state" value="Haryana" />
+		<property name="country" value="India" />
+		<property name="addressId" value="2" />
+		
+	</bean>
+	<bean id="personBean" class="sprinfexamples.readinfconfig.Person">
+	
+	<constructor-arg name="aadharCardNumber" value="3674577587"/>
+	<constructor-arg name="personName" value="Ajay"/>
+	<!-- Below we are injecting dependencies -->
+	<constructor-arg name="residentialAddress" ref="addBean1"/>
+	<constructor-arg name="permanentAddress" ref="addBean2"/>
+	
+	</bean>
+
+</beans>

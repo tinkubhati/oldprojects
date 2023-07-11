@@ -1,0 +1,21 @@
+package com.prodapt.restfullapppractice.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.prodapt.restfullapppractice.entities.Book;
+import com.prodapt.restfullapppractice.services.BookService;
+
+@RestController
+@RequestMapping("api/book")
+public class BookController {
+	
+	@Autowired
+	private BookService bookService;
+	
+	@Autowired
+	private Book book;
+	
+
+}

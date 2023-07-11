@@ -1,0 +1,5 @@
+package com.prodapt.restfullapppractice.repositories;
+
+public interface BookRepository {
+
+}

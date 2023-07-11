@@ -1,0 +1,25 @@
+.task{
+    background-color: rgb(0, 229, 255);
+    margin: 5px;;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.task.reminder{
+    border-left: 5px solid rgb(5, 245, 5);
+}
+
+.task h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#rn{
+    color: red;
+}
+#rn2{
+    background-color: blue;
+    color: white;
+    
+}

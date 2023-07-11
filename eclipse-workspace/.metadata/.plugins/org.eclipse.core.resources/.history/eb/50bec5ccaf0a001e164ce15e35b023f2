@@ -1,0 +1,5 @@
+package com.prodapt.restfullapppractice.services;
+
+public interface BookService {
+
+}

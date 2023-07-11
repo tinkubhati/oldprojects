@@ -1,0 +1,35 @@
+package com.prodapt.restfulapp.services;
+
+import java.util.List;
+
+import com.prodapt.restfulapp.entities.Book;
+import com.prodapt.restfulapp.exceptions.BookNotFoundException;
+
+public interface BookService {
+	//Retrieve All
+	public List<Book> getAllBooks()throws BookNotFoundException;
+	
+	//Retrieve By Id
+	public Book getBookById(Integer bookId) throws BookNotFoundException;
+	
+	//Save Book
+	public Book addBook(Book newBook);
+	
+	//Retrieve By Name 
+	public Book getBookByName(String bookName)throws BookNotFoundException;
+	
+	
+	public List<Book> getBookByAuthor(String author)throws BookNotFoundException;
+	
+	//Retrieve by Publisher
+	public List<Book> getBookByPublisher(String publisher)throws BookNotFoundException;
+
+	//UPDATE Book
+		public Book updateBook(Book newBook)throws BookNotFoundException;
+		
+	//DELETE Book by Id
+		public String deleteBookById(Integer bookId)throws BookNotFoundException;
+	//Delete book by name
+		public String deleteBookByName(String bookName , Integer bookId)throws BookNotFoundException;
+	
+}

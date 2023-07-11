@@ -1,0 +1,11 @@
+<div *ngIf="task" [ngClass]="{reminder: task.reminder}" class="task" (dblclick)="taskReminder(task)">
+    {{task.id}}.
+    <h3>{{task.text}}
+        <!-- <fa-icon [ngStyle]="{color: 'red'}"
+        [icon]="faTimes" 
+        (click)="onDelete(task)"></fa-icon> -->
+        <button type="button" class="btn btn-success" (click)="onDelete(task)">BUY</button>
+    </h3>
+    <p>{{task.price | currency:"INR"}}</p>
+    <p id="rn">{{task.dis}}</p>
+</div>

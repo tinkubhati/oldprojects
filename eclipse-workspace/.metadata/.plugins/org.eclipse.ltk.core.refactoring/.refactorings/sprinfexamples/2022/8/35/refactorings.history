@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Customer.java&apos; to &apos;springexampleswithannotations/src/main/java/springexampleswithannotations.model&apos;&#x0D;&#x0A;- Original project: &apos;sprinfexamples&apos;&#x0D;&#x0A;- Destination element: &apos;springexampleswithannotations/src/main/java/springexampleswithannotations.model&apos;&#x0D;&#x0A;- Original element: &apos;sprinfexamples.readinfconfig.Customer.java&apos;" description="Copy compilation unit" destination="=springexampleswithannotations/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;springexampleswithannotations.model" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sprinfexamples.readinfconfig{Customer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1661248651728" units="1" version="1.0"/>
+</session>

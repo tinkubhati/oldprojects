@@ -1,0 +1,45 @@
+package com.prodapt.restfullapppractice.services;
+
+import java.util.List;
+
+import com.prodapt.restfullapppractice.entities.Book;
+
+public interface BookService {
+	
+	
+//Retrieve by all
+	public List<Book> getAllBooks();
+	
+	
+//Retrieve by id
+	public Book getBookById(Integer bookId);
+	
+//Retrieve by name
+	public Book getBookByName(String bookName);
+	
+//Retrieve by author
+	
+	public List<Book> getBookByAuthor(String author);
+	
+//Retrieve by publisher
+	public List<Book> getBookByPublisher(String publisher);
+
+	
+//save
+	
+	public void addBook(Book newBook);
+	
+//delete by id
+	
+	public String deleteBookById(Integer bookId);
+	
+//delete by name
+	
+	public void deleteBookByName(String bookName);
+	
+//update book
+	
+	public Book updateBook(Book newBook);
+	
+
+}
